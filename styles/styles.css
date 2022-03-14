@@ -1,0 +1,37 @@
+* {
+  color: maroon;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  background-image: url(../first-project/images/Amin.jpg);
+}
+ul {
+  align-items: flex-start;
+  list-style-type: square;
+  background-color: hotpink;
+  border-radius: 7px;
+  width: 222px;
+}
+
+ol {
+  align-items: flex-start;
+  list-style-type: lower-greek;
+  background-color: hotpink;
+  border-radius: 7px;
+  width: 222px;
+}
+
+li {
+  text-align: left;
+  font-size: 24px;
+
+  padding: 8px;
+  width: 180px;
+  background-color: bisque;
+}
